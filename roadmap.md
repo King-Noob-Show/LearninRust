@@ -55,3 +55,43 @@ fn main() {
 ### 1.6 The Format Macro
 
 - Represented in [print.rs](src/print.rs)
+
+## 2. Primitives
+
+### 2.1 Scalar Types
+
+- Signed Integers `i8`,`i16`,`i32`,`i64`,`i128` and `isize` (pointer size)
+- Unsigned Integers `u8`,`u16`,`u32`,`u64`,`u128` and `usize` (pointer size)
+- Floating Points `f32` and `f64`
+- Booleans `true` or `false`
+- Char `a`,`α` or `∞` unicode 4 byte values.
+- The unit type `()`, whose only possible value is an empty tuple: `()`
+- Represented in [primitives.rs](src/primitives.rs)
+
+### 2.2 Compound Types
+
+- Arrays like `[1, 2, 3]`
+- Tuples like `(1, true)`
+- Represented in [primitives.rs](src/primitives.rs)
+
+### 2.3 Literals And Operators
+
+- Integers `1`, floats `1.2`, characters `'a'`, strings `"abc"`, booleans `true` and the unit type `()` can be expressed
+  using literals.
+- Underscores can be inserted in numeric literals to improve readability, e.g. 1_000 is the same as 1000, and 0.000_001
+  is the same as 0.000001.
+- Operators are similar to other C-like langs.
+- Represented in [primitives.rs](src/primitives.rs)
+
+### 2.4 Tuples
+
+- Collection of values of different types.
+- `tuple.index` can be used to get value.
+- Represented in [primitives.rs](src/primitives.rs)
+
+### 2.5 Arrays
+
+- An array is a collection of objects of the same type `T`, stored in contiguous memory.
+- Arrays are created using brackets `[]`.
+- Length is known during compile time is part of their type signature `[T; length]`.
+- Represented in [primitives.rs](src/primitives.rs)
