@@ -235,7 +235,7 @@ fn formatting() {
             let formatted_hex = String::from("0x") + &hex;
             write!(
                 f,
-                "RGB: ({}, {}, {}), {}",
+                "RGB: ({}, {}, {}), {:0<8}",
                 self.red, self.green, self.blue, formatted_hex
             )
         }
