@@ -95,3 +95,27 @@ fn main() {
 - Arrays are created using brackets `[]`.
 - Length is known during compile time is part of their type signature `[T; length]`.
 - Represented in [primitives.rs](src/primitives.rs)
+
+## 3. Custom Types
+
+### 3.1 Structs
+
+- There are three types of structures ("structs") that can be created using the `struct` keyword.
+- Tuple structs, which are, basically, named tuples.
+- The classic C structs
+- Unit structs, which are field-less, are useful for generics.
+- Represented in [custom_types.rs](src/custom_types.rs)
+
+### 3.2 Enums
+
+- The `enum` keyword allows the creation of a type which may be one of a few different variants.
+- Represented in [custom_types.rs](src/custom_types.rs)
+
+### 3.3 Constants
+
+- Rust has two different types of constants.
+- `const`, An Unchangeable Value.
+- `static`, A possibly mutable variable with `'static` lifetime.
+- The static lifetime is inferred and does not have to be specified.
+- Accessing or modifying a mutable static variable is `unsafe`.
+- Represented in [custom_types.rs](src/custom_types.rs)
