@@ -119,3 +119,25 @@ fn main() {
 - The static lifetime is inferred and does not have to be specified.
 - Accessing or modifying a mutable static variable is `unsafe`.
 - Represented in [custom_types.rs](src/custom_types.rs)
+
+## 4. Variable Bindings
+
+### 4.1 Mutability
+
+- Rust provides type safety via static typing.
+- Variable bindings can be type annotated when declared (or the compiler will do it through context)
+- Values (like literals) can be bound to variables, using the `let` binding.
+- Variable bindings are immutable by default, but this can be overridden using the `mut` modifier.
+- Represented in [variable_bindings.rs](src/variable_bindings.rs)
+
+### 4.2 Scope and Shadowing
+
+- Variable bindings have a scope, and are constrained to live in a block.
+- Shadowing is also allowed.
+- Represented in [variable_bindings.rs](src/variable_bindings.rs)
+
+### 4.3 Freezing
+
+- When data is bound by the same name immutably, it also freezes.
+- Frozen data can't be modified until the immutable binding goes out of scope
+- Represented in [variable_bindings.rs](src/variable_bindings.rs)
