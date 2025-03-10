@@ -2,8 +2,10 @@
 
 My whole journey through beginner Rust.
 
-### Special Thanks:-
+This repo contains my whole journey through beginner rust using the [Rust Book](https://doc.rust-lang.org/book/). The
+`archive` folder is when I used to use the Rust By Example resource but that just wasn't to my liking.
 
-- [Rust By Example](https://doc.rust-lang.org/rust-by-example/) for providing the resources to learn
-- [freeCodeCamp](https://youtu.be/BpPEoZW5IiY?si=haZPWyGz6Aq8Nqpl) for that awesome video
-- [Rust](https://www.rust-lang.org) for well...rust.
+## Credits:-
+
+- [The Rust Book](https://doc.rust-lang.org/book/)
+- [The Rust Lang](https://www.rust-lang.org)
