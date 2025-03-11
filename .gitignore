@@ -104,3 +104,4 @@ pdbs
 # Added by cargo
 
 /target
+/archive
