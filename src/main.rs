@@ -4,6 +4,7 @@ mod functions;
 mod guessing_game;
 mod hello_world;
 mod ownership;
+mod structure_data;
 mod variables_mutability;
 
 fn main() {
@@ -15,4 +16,5 @@ fn main() {
     // functions::main();
     // control_flow::main();
     // ownership::main();
+    // structure_data::main();
 }
