@@ -100,8 +100,8 @@ fabric.properties
 
 # Others
 pdbs
+/archive
 
 # Added by cargo
 
 /target
-/archive

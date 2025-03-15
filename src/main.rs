@@ -1,3 +1,4 @@
+mod collections;
 mod control_flow;
 mod data_types;
 mod enums;
@@ -20,4 +21,5 @@ fn main() {
     // ownership::main();
     // structure_data::main();
     // enums::main();
+    collections::main();
 }
