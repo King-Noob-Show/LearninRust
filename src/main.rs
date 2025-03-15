@@ -2,6 +2,7 @@ mod collections;
 mod control_flow;
 mod data_types;
 mod enums;
+mod error_handling;
 mod functions;
 mod guessing_game;
 mod hello_world;
@@ -21,5 +22,6 @@ fn main() {
     // ownership::main();
     // structure_data::main();
     // enums::main();
-    collections::main();
+    // collections::main();
+    // error_handling::main();
 }
