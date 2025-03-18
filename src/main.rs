@@ -8,6 +8,7 @@ mod guessing_game;
 mod hello_world;
 mod ownership;
 mod structure_data;
+mod traits_lifetimes_generic_types;
 mod variables_mutability;
 
 fn main() {
@@ -24,4 +25,5 @@ fn main() {
     // enums::main();
     // collections::main();
     // error_handling::main();
+    // traits_lifetimes_generic_types::main();
 }
